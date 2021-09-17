@@ -31,10 +31,12 @@ namespace DIO.Series.Enum
                         VisualizarSerie();
                         break;
                     case "C":
+                        Console.Clear();
                         break;
                     case "X":
                         break;
                     default:
+                        Console.WriteLine("Opção inválida. Por favor, tente novamente.");
                         break;
                 }
             } while (opcaoUsuario != "X");
